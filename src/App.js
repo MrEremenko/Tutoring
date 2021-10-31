@@ -32,7 +32,7 @@ function App() {
       <div style={{ fontSize: "2vh", textAlign: "center" }}>(plus my unique approach)</div>
       <div style={{ margin: "2vh 10vw 0", boxShadow: "0 0px 1.2vh black", padding: "4vh", width: "70vw", display: "flex", flexDirection: "column", alignItems: "center"}}>
         <div style={{ fontSize: "3vh", textAlign: "center" }}><i>"The purpose of tutoring is to help students help themselves, <u>or to assist or guide them to the point
-        at which they become an independent learner</u>, and thus no longer need a tutor."</i> -  <a href={"http://southcentral.edu/tutor_training/module1/index.html"} target="_blank" style={{ fontSize: "1.5vh" }}>South Central College ↗</a></div>
+        at which they become an independent learner</u>, and thus no longer need a tutor."</i> -  <a href={"http://southcentral.edu/tutor_training/module1/index.html"} target="_blank" style={{ fontSize: "1.5vh" }}>South Central College</a></div>
         <div style={{ fontSize: "3.5vh", marginTop: "3vh", textAlign: "center" }}>This is why I offer <u>60-80 free study hours per week</u>.</div>
       </div>
       <div style={{ fontSize: "4vh", marginTop: "5vh" }}>The topics I tutor</div>
@@ -138,11 +138,11 @@ function App() {
       </div>
       <div style={{ fontSize: "5vh", margin: "4vh 0 0" }}>My Schedule</div>
       <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", fontSize: "2.5vh", width: "25vw", margin: "3vh 3vw",
-          flexDirection: "column", alignItems: "center", padding: "3vh 3vw", minWidth: "400px"  }}>
+          flexDirection: "column", alignItems: "center", padding: "3vh 3vw", minWidth: "300px"  }}>
             <div style={{ textAlign: "center" }}><u>Using Benjamin Franklin's Schedule</u></div><br />
             <div style={{ textAlign: "center" }}>I have adopted Benjamin Franklin's schedule as shown below from his autobiography.</div><br />
             <div style={{ textAlign: "center" }}>I find that days are longer and more productive this way.</div><br />
-            <img src={schedule} style={{ width: "16vw", minWidth: "300px" }} />
+            <img src={schedule} style={{ width: "16vw", minWidth: "250px" }} />
       </div>
       <div style={{ fontSize: "2vh", width: "100%", borderStyle: "solid none none", borderWidth: "0.1vh", textAlign: "center", padding: "2vh 0" }}>
         Feel free to send me an email at <b>iestemtutor@gmail.com</b> if you have any questions.
