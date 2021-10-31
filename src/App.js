@@ -65,7 +65,7 @@ function App() {
         </div>
         <div style={{ display: "flex", flex: "1 1 15vw", flexDirection: "column", margin: "1vw" }}>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
-            <div>Java I, II</div>
+            <div>Java I, II, III</div>
             <div>(4.0)</div>
           </div>
           <div style={{ display: "flex", justifyContent: "space-between", flexWrap: "nowrap" }}>
