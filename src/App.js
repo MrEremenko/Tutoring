@@ -130,7 +130,7 @@ function App() {
           flexDirection: "column", alignItems: "center", padding: "3vh 3vw", minWidth: "300px"  }}>
             <div style={{ textAlign: "center" }}><u>For long term clients</u></div><br />
             <div style={{ textAlign: "center" }}>As part of the journey to build independent learners, there is a book I'd like for my students to read.</div><br />
-            <div style={{ textAlign: "center" }}>There is a version for teenagers as well. I'll reveal this during the initial meeting.</div><br />
+            <div style={{ textAlign: "center" }}>There is a version for teenagers as well for a bit of an easier read. I'll reveal this during the initial meeting.</div><br />
             <div style={{ textAlign: "center" }}>The initial meeting is 2 hours long, with the first hour for free to break the ice and get into the proper mindset.</div><br />
             <div style={{ textAlign: "center" }}>Looking forward to studying with you!</div><br />
             <img src={book} style={{ width: "16vw", minWidth: "250px" }} />
