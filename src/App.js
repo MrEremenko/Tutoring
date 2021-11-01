@@ -141,8 +141,8 @@ function App() {
           flexDirection: "column", alignItems: "center", padding: "3vh 3vw", minWidth: "300px"  }}>
             <div style={{ textAlign: "center" }}><u>Using Benjamin Franklin's Schedule</u></div><br />
             <div style={{ textAlign: "center" }}>I have adopted Benjamin Franklin's schedule as shown below from his autobiography.</div><br />
-            <div style={{ textAlign: "center" }}>I find that days are longer and more productive this way.</div><br />
             <img src={schedule} style={{ width: "16vw", minWidth: "250px" }} />
+            <div style={{ textAlign: "center", marginTop: "2vh" }}>I find that days are longer and more productive this way.</div>
       </div>
       <div style={{ fontSize: "2vh", width: "100%", borderStyle: "solid none none", borderWidth: "0.1vh", textAlign: "center", padding: "2vh 0" }}>
         Feel free to send me an email at <b>iestemtutor@gmail.com</b> if you have any questions.
