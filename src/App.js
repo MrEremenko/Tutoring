@@ -5,6 +5,8 @@ import video from './video.jpg';
 import schedule from './schedule.jpg';
 import seattle from './seattle.png';
 
+
+//TODO: get rid of any <br />; create thingies for it...
 function App() {
   return (
     <div className="App" style={{ color: "#0F2A54", display: "flex", flexDirection: "column", alignItems: "center" }}>
@@ -93,13 +95,13 @@ function App() {
       <div style={{ fontSize: "5vh", textAlign: "center", marginTop: "4vh" }}>The Ultimate Tutoring Package</div>
       <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", margin: "3vh 10vw 0", fontSize: "2.5vh", width: "50vw", margin: "1vh 10vw 3vh",
       flexDirection: "column", alignItems: "center", padding: "3vh" }}>
-        <div style={{ textAlign: "center"  }}><u>What I am offering</u></div><br />
-        <div style={{ textAlign: "center"  }}>✓ 1 hour session/week for $60</div><br />
-        <div style={{ textAlign: "center"  }}><u>This includes:</u></div><br />
-        <div style={{ textAlign: "center"  }}>✓ 60 - 80 study session hours/week!</div><br />
-        <div style={{ textAlign: "center"  }}>✓ Unlimited email support!</div><br />
-        <div style={{ textAlign: "center"  }}>✓ Unlimited text support!</div><br />
-        <div style={{ textAlign: "center"  }}>✓ Weekly student study time reports, example <u>here</u>!</div><br />
+        <div style={{ textAlign: "center", marginBottom: "2.9vh"  }}><u>What I am offering</u></div>
+        <div style={{ textAlign: "center", marginBottom: "2.9vh"  }}>✓ 1 hour session/week for $60</div>
+        <div style={{ textAlign: "center", marginBottom: "2.9vh"  }}><u>This includes:</u></div>
+        <div style={{ textAlign: "center", marginBottom: "2.9vh"  }}>✓ 60 - 80 study session hours/week!</div>
+        <div style={{ textAlign: "center", marginBottom: "2.9vh"  }}>✓ Unlimited email support!</div>
+        <div style={{ textAlign: "center", marginBottom: "2.9vh"  }}>✓ Unlimited text support!</div>
+        <div style={{ textAlign: "center", marginBottom: "2.9vh"  }}>✓ Weekly student study time reports, example <u>here</u>!</div>
         <div style={{ textAlign: "center"  }}>✓ A free hour during the initial 2 hour session!</div>
       </div>
       <div style={{ display: "flex", margin: "5vh 0", padding: "5vh 5vw", borderStyle: "solid none solid", borderWidth: "0.1vh", flexWrap: "wrap", alignContent: "center" }}>
@@ -118,29 +120,29 @@ function App() {
       <div style={{ display: "flex", margin: "2vh 0 0", justifyContent: "center", width: "100%", flexWrap: "wrap" }}>
         <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", fontSize: "2.5vh", width: "25vw", margin: "3vh 3vw",
           flexDirection: "column", alignItems: "center", padding: "3vh 3vw", minWidth: "300px" }}>
-            <div style={{ textAlign: "center" }}><u>Study Sessions</u></div><br />
-            <div style={{ textAlign: "center" }}>Study sessions are Zoom calls where students join and study, generally on mute in order to concentrate.</div><br />
-            <div style={{ textAlign: "center" }}>This creates an environment where a student can concentrate on their work without any outside distractions.</div><br />
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><u>Study Sessions</u></div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>Study sessions are Zoom calls where students join and study, generally on mute in order to concentrate.</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>This creates an environment where a student can concentrate on their work without any outside distractions.</div>
             <div style={{ textAlign: "center" }}>The only rule:</div>
-            <div style={{ textAlign: "center" }}><u>Study sessions are for studying/working.</u></div><br />
-            <div style={{ textAlign: "center" }}>In other words, don't get distracted with other tasks. The Zoom call is open 24/7, so join later if needed!</div><br />
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><u>Study sessions are for studying/working.</u></div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>In other words, don't get distracted with other tasks. The Zoom call is open 24/7, so join later if needed!</div>
             <img src={video} style={{ width: "20vw", minWidth: "250px" }} />
         </div>
         <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", fontSize: "2.5vh", width: "25vw", margin: "3vh 3vw",
           flexDirection: "column", alignItems: "center", padding: "3vh 3vw", minWidth: "300px"  }}>
-            <div style={{ textAlign: "center" }}><u>For long term clients</u></div><br />
-            <div style={{ textAlign: "center" }}>As part of the journey to build independent learners, there is a book I'd like for my students to read.</div><br />
-            <div style={{ textAlign: "center" }}>There is a version for teenagers as well for a bit of an easier read. I'll reveal this during the initial meeting.</div><br />
-            <div style={{ textAlign: "center" }}>The initial meeting is 2 hours long, with the first hour for free to break the ice and get into the proper mindset.</div><br />
-            <div style={{ textAlign: "center" }}>Looking forward to studying with you!</div><br />
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><u>For long term clients</u></div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>As part of the journey to build independent learners, there is a book I'd like for my students to read.</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>There is a version for teenagers as well for a bit of an easier read. I'll reveal this during the initial meeting.</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>The initial meeting is 2 hours long, with the first hour for free to break the ice and get into the proper mindset.</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>Looking forward to studying with you!</div>
             <img src={book} style={{ width: "16vw", minWidth: "250px" }} />
         </div>
       </div>
       <div style={{ fontSize: "5vh", margin: "4vh 0 0" }}>My Schedule</div>
       <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", fontSize: "2.5vh", width: "25vw", margin: "3vh 3vw",
           flexDirection: "column", alignItems: "center", padding: "3vh 3vw", minWidth: "300px"  }}>
-            <div style={{ textAlign: "center" }}><u>Using Benjamin Franklin's Schedule</u></div><br />
-            <div style={{ textAlign: "center" }}>I have adopted Benjamin Franklin's schedule as shown below from his autobiography.</div><br />
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><u>Using Benjamin Franklin's Schedule</u></div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>I have adopted Benjamin Franklin's schedule as shown below from his autobiography.</div>
             <img src={schedule} style={{ width: "16vw", minWidth: "250px" }} />
             <div style={{ textAlign: "center", marginTop: "2vh" }}>I find that days are longer and more productive this way.</div>
       </div>
