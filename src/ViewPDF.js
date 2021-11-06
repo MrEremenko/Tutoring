@@ -6,14 +6,13 @@ pdfjs.GlobalWorkerOptions.workerSrc =  `//cdnjs.cloudflare.com/ajax/libs/pdf.js/
 
 function ViewPDF() {
   const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
-
   function onDocumentLoadSuccess({ numPages }) {
     setNumPages(numPages);
   }
 
   return (
-    <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", flexDirection: "column", alignItems: "center", height: "75vh", overflowY: "scroll" }}>
+    <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", flexDirection: "column", alignItems: "center", maxWidth: "90vw",
+     height: "75vh", overflowY: "scroll" }}>
       <Document
         file={doc}
         onLoadSuccess={onDocumentLoadSuccess}
@@ -21,11 +20,11 @@ function ViewPDF() {
         { Array.from({ length: numPages }, (value, key) => {
           if(key + 1 < numPages) {
             return [
-              <Page pageNumber={key + 1} />,
-              <div style={{ height: "0.2vh", backgroundColor: "#999999" }}></div>
+              <Page key={key} pageNumber={key + 1} />,
+              <div key={key + "space"} style={{ height: "0.2vh", backgroundColor: "#999999" }}></div>
             ]
           } else {
-            return <Page pageNumber={key + 1} />
+            return <Page key={key} pageNumber={key + 1} />
           }
         }) }
       </Document>

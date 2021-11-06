@@ -35,7 +35,7 @@ function App() {
       <div style={{ fontSize: "2vh", textAlign: "center" }}>(plus my unique approach)</div>
       <div style={{ margin: "2vh 10vw 0", boxShadow: "0 0px 1.2vh black", padding: "4vh", width: "70vw", display: "flex", flexDirection: "column", alignItems: "center"}}>
         <div style={{ fontSize: "3vh", textAlign: "center" }}><i>"The purpose of tutoring is to help students help themselves, <u>or to assist or guide them to the point
-        at which they become an independent learner</u>, and thus no longer need a tutor."</i> -  <a href={"http://southcentral.edu/tutor_training/module1/index.html"} target="_blank" style={{ fontSize: "1.5vh" }}>South Central College</a></div>
+        at which they become an independent learner</u>, and thus no longer need a tutor."</i> -  <a href={"http://southcentral.edu/tutor_training/module1/index.html"} rel="noreferrer" target="_blank" style={{ fontSize: "1.5vh" }}>South Central College</a></div>
         <div style={{ fontSize: "3.5vh", marginTop: "3vh", textAlign: "center" }}>This is why I offer <u>60-80 free study hours per week with any tutoring package</u>.</div>
         <div style={{ fontSize: "3.5vh", textAlign: "center" }}>If you want to build an independent learner, you have come to the right place.</div>
       </div>
@@ -98,7 +98,7 @@ function App() {
 
       <div style={{ display: "flex", margin: "5vh 0", padding: "5vh 5vw", borderStyle: "solid none solid", borderWidth: "0.1vh", flexWrap: "wrap", alignContent: "center" }}>
         <div style={{ flex: "1 0 20vw" }}>
-          <img src={profile} style={{ height: "30vh", margin: "auto" }} />
+          <img alt={"<Profile Pic>"} src={profile} style={{ height: "30vh", margin: "auto" }} />
         </div>
         <div style={{ fontSize: "3vh", flex: "1 0 60vw", alignItems: "center" }}>
           I started tutoring at Edmonds Community College in the Learning Support Center and then at Central Washington University for their Math Bridge program. While attending University of Washington Bothell I started private tutoring the classes listed above to middle/high schoolers and college students.
@@ -158,7 +158,7 @@ function App() {
             <div style={{ textAlign: "center" }}>The only rule:</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><u>Study sessions are for studying/working.</u></div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>In other words, don't get distracted with other tasks. The Zoom call is open 24/7, so join later if needed!</div>
-            <img src={video} style={{ width: "20vw", minWidth: "250px" }} />
+            <img alt={"<Zoom Video>"} src={video} style={{ width: "20vw", minWidth: "250px" }} />
         </div>
         <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", fontSize: "2.5vh", width: "25vw", margin: "3vh 3vw",
           flexDirection: "column", alignItems: "center", padding: "3vh 3vw", minWidth: "300px"  }}>
@@ -167,7 +167,7 @@ function App() {
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>There is a version for teenagers as well for a bit of an easier read. I'll reveal this over email.</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>We can talk more about it during the optional 15 minute introductions.</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>Looking forward to studying with you!</div>
-            <img src={book} style={{ width: "16vw", minWidth: "250px" }} />
+            <img alt={"<Mystery Book>"} src={book} style={{ width: "16vw", minWidth: "250px" }} />
         </div>
       </div>
       <div style={{ fontSize: "5vh", margin: "4vh 0 0" }}>My Schedule</div>
@@ -175,7 +175,7 @@ function App() {
           flexDirection: "column", alignItems: "center", padding: "3vh 3vw", minWidth: "300px"  }}>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><u>Using Benjamin Franklin's Schedule</u></div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>I have adopted Benjamin Franklin's schedule as shown below from his autobiography.</div>
-            <img src={schedule} style={{ width: "16vw", minWidth: "250px" }} />
+            <img alt={"<Benjamin Franklin's Schedule>"} src={schedule} style={{ width: "16vw", minWidth: "250px" }} />
             <div style={{ textAlign: "center", marginTop: "2vh" }}>I find that days are longer and more productive this way.</div>
       </div>
       <div style={{ fontSize: "2vh", width: "100%", borderStyle: "solid none none", borderWidth: "0.1vh", textAlign: "center", padding: "2vh 0" }}>
