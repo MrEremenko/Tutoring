@@ -176,6 +176,7 @@ function App() {
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><u>Using Benjamin Franklin's Schedule</u></div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>I have adopted Benjamin Franklin's schedule as shown below from his autobiography.</div>
             <img alt={"<Benjamin Franklin's Schedule>"} src={schedule} style={{ width: "16vw", minWidth: "250px" }} />
+            <a href={"https://www.pinterest.com/pin/206532332898922924/"} style={{ color: "#707070", fontSize: "1vh" }} target="_blank" rel="noreferrer">https://www.pinterest.com/pin/206532332898922924/</a>
             <div style={{ textAlign: "center", marginTop: "2vh" }}>I find that days are longer and more productive this way.</div>
       </div>
       <div style={{ fontSize: "2vh", width: "100%", borderStyle: "solid none none", borderWidth: "0.1vh", textAlign: "center", padding: "2vh 0" }}>
