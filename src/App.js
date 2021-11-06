@@ -4,6 +4,7 @@ import book from './book.png';
 import video from './video.jpg';
 import schedule from './schedule.jpg';
 import seattle from './seattle.png';
+import ViewPDF from './ViewPDF';
 
 
 //TODO: get rid of any <br />; create thingies for it...
@@ -35,9 +36,10 @@ function App() {
       <div style={{ margin: "2vh 10vw 0", boxShadow: "0 0px 1.2vh black", padding: "4vh", width: "70vw", display: "flex", flexDirection: "column", alignItems: "center"}}>
         <div style={{ fontSize: "3vh", textAlign: "center" }}><i>"The purpose of tutoring is to help students help themselves, <u>or to assist or guide them to the point
         at which they become an independent learner</u>, and thus no longer need a tutor."</i> -  <a href={"http://southcentral.edu/tutor_training/module1/index.html"} target="_blank" style={{ fontSize: "1.5vh" }}>South Central College</a></div>
-        <div style={{ fontSize: "3.5vh", marginTop: "3vh", textAlign: "center" }}>This is why I offer <u>60-80 free study hours per week</u>.</div>
+        <div style={{ fontSize: "3.5vh", marginTop: "3vh", textAlign: "center" }}>This is why I offer <u>60-80 free study hours per week with any tutoring package</u>.</div>
+        <div style={{ fontSize: "3.5vh", textAlign: "center" }}>If you want to build an independent learner, you have come to the right place.</div>
       </div>
-      <div style={{ fontSize: "4vh", marginTop: "5vh" }}>The topics I tutor</div>
+      <div style={{ fontSize: "4vh", marginTop: "5vh" }}>The subjects I tutor</div>
       <div style={{ boxShadow: "0 0px 1.2vh black", width: "60vw", padding: "3vh 6vw", display: "flex", margin: "1vh 10vw 0", fontSize: "2.5vh", flexWrap: "wrap" }}>
         <div style={{ display: "flex", flex: "1 1 15vw", flexDirection: "column", margin: "1vw" }}>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
@@ -60,10 +62,10 @@ function App() {
             <div>Linear Algebra</div>
             <div>(3.9)</div>
           </div>
-          <tr>
-            <tc>SAT Math</tc>
-            <tc style={{ float: "right" }}>(790/800)</tc>
-          </tr>
+          <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <div>SAT Math</div>
+            <div>(790/800)</div>
+          </div>
         </div>
         <div style={{ display: "flex", flex: "1 1 15vw", flexDirection: "column", margin: "1vw" }}>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
@@ -86,24 +88,14 @@ function App() {
             <div>Javascript</div>
             <div>(N/A)</div>
           </div>
-          <tr>
-            <tc>Rubik's Cube</tc>
-            <tc style={{ float: "right" }}>(11.58s)</tc>
-          </tr>
+          <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <div>Rubik's Cube</div>
+            <div>(11.58s)</div>
+          </div>
         </div>
       </div>
-      <div style={{ fontSize: "5vh", textAlign: "center", marginTop: "4vh" }}>The Ultimate Tutoring Package</div>
-      <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", margin: "3vh 10vw 0", fontSize: "2.5vh", width: "50vw", margin: "1vh 10vw 3vh",
-      flexDirection: "column", alignItems: "center", padding: "3vh" }}>
-        <div style={{ textAlign: "center", marginBottom: "2.9vh"  }}><u>What I am offering</u></div>
-        <div style={{ textAlign: "center", marginBottom: "2.9vh"  }}>✓ 1 hour session/week for $60</div>
-        <div style={{ textAlign: "center", marginBottom: "2.9vh"  }}><u>This includes:</u></div>
-        <div style={{ textAlign: "center", marginBottom: "2.9vh"  }}>✓ 60 - 80 study session hours/week!</div>
-        <div style={{ textAlign: "center", marginBottom: "2.9vh"  }}>✓ Unlimited email support!</div>
-        <div style={{ textAlign: "center", marginBottom: "2.9vh"  }}>✓ Unlimited text support!</div>
-        <div style={{ textAlign: "center", marginBottom: "2.9vh"  }}>✓ Weekly student study time reports, example <u>here</u>!</div>
-        <div style={{ textAlign: "center"  }}>✓ A free hour during the initial 2 hour session!</div>
-      </div>
+
+
       <div style={{ display: "flex", margin: "5vh 0", padding: "5vh 5vw", borderStyle: "solid none solid", borderWidth: "0.1vh", flexWrap: "wrap", alignContent: "center" }}>
         <div style={{ flex: "1 0 20vw" }}>
           <img src={profile} style={{ height: "30vh", margin: "auto" }} />
@@ -113,9 +105,49 @@ function App() {
           <br/><br/>
           During the study hours, I either tutor other students, learn more about Deep Learning in the AI field, solve Leetcode.com questions, or work on my startup.
           <br/><br/>
-          In my free time, I like to read. Feel free to ask me what I am currently reading.
+          In my free time, I like to read. Feel free to ask me what I am currently reading at iestemtutor@gmail.com.
         </div>
       </div>
+
+      <div style={{ fontSize: "5vh", textAlign: "center", marginTop: "4vh" }}>Tutoring Packages</div>
+      <div style={{ display: "flex", margin: "2vh 0 0", justifyContent: "center", width: "100%", flexWrap: "wrap" }}>
+        <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", fontSize: "2.5vh", width: "17vw", margin: "1vh 1vw",
+            flexDirection: "column", alignItems: "center", padding: "2vh 2vw", minWidth: "300px" }}>
+            <div style={{ fontSize: "3.5vh", textAlign: "center" }}><u>The Independent</u></div>
+            <div style={{ fontSize: "3vh", textAlign: "center", marginBottom: "1.5vh" }}>$30/month</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Weekly student time reports, see example below!</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ 60 - 80 study session hours/week!</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Optional 15 minute introductions if requested!</div>
+            <div style={{ flex: "1 0 auto"}}></div>
+            <div style={{ textAlign: "center", borderTopStyle: "solid", paddingTop: "1vh" }}>For those who just want the report of all the study hours and the learning environment of everyone studying (over Zoom).</div>
+        </div>
+        <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", fontSize: "2.5vh", width: "17vw", margin: "1vh 1vw",
+            flexDirection: "column", alignItems: "center", padding: "2vh 2vw", minWidth: "300px" }}>
+            <div style={{ fontSize: "3.5vh", textAlign: "center" }}><u>Just the Facts</u></div>
+            <div style={{ fontSize: "3vh", textAlign: "center", marginBottom: "1.5vh" }}>$200/month</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Weekly student time reports, see example below!</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ 60 - 80 study session hours/week!</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Optional 15 minute introductions if requested!</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><b>✓ Unlimited support via email or direct messages (for subjects listed above)!</b></div>
+            <div style={{ flex: "1 0 auto"}}></div>
+            <div style={{ textAlign: "center", borderTopStyle: "solid", paddingTop: "1vh" }}>For those who want the report, study room, AND unlimited support over email/direct messages.</div>
+        </div>
+        <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", fontSize: "2.5vh", width: "17vw", margin: "1vh 1vw",
+            flexDirection: "column", alignItems: "center", padding: "2vh 2vw", minWidth: "300px" }}>
+            <div style={{ fontSize: "3.5vh", textAlign: "center" }}><u>A Little Help</u></div>
+            <div style={{ fontSize: "3vh", textAlign: "center", marginBottom: "1.5vh" }}>$300/month</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Weekly student time reports, see example below!</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ 60 - 80 study session hours/week!</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Optional 15 minute introductions if requested!</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><b>✓ Unlimited support via email or direct messages (for subjects listed above)!</b></div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><b>✓ 1 hour/week private tutoring session</b></div>
+            <div style={{ flex: "1 0 auto"}}></div>
+            <div style={{ textAlign: "center", borderTopStyle: "solid", paddingTop: "1vh" }}>For those who want the report, unlimited support over text, AND an hour of tutoring to make sure all concepts are mastered.</div>
+        </div>
+      </div>
+      <div style={{ fontSize: "2.5vh", textAlign: "center", margin: "2vh 0" }}>(I will also ask for the student's grades at the end of the month to include into the report, <br />you can opt out of this if desired)</div>
+      <div style={{ fontSize: "4vh", textAlign: "center", marginBottom: "2vh" }}>Example Report</div>
+      <ViewPDF />
       <div style={{ fontSize: "5vh", margin: "2vh 0 0", textAlign: "center" }}>Some additional info</div>
       <div style={{ display: "flex", margin: "2vh 0 0", justifyContent: "center", width: "100%", flexWrap: "wrap" }}>
         <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", fontSize: "2.5vh", width: "25vw", margin: "3vh 3vw",
@@ -132,8 +164,8 @@ function App() {
           flexDirection: "column", alignItems: "center", padding: "3vh 3vw", minWidth: "300px"  }}>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><u>For long term clients</u></div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>As part of the journey to build independent learners, there is a book I'd like for my students to read.</div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>There is a version for teenagers as well for a bit of an easier read. I'll reveal this during the initial meeting.</div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>The initial meeting is 2 hours long, with the first hour for free to break the ice and get into the proper mindset.</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>There is a version for teenagers as well for a bit of an easier read. I'll reveal this over email.</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>We can talk more about it during the optional 15 minute introductions.</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>Looking forward to studying with you!</div>
             <img src={book} style={{ width: "16vw", minWidth: "250px" }} />
         </div>
