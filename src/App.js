@@ -103,7 +103,7 @@ function App() {
         <div style={{ fontSize: "3vh", flex: "1 0 60vw", alignItems: "center" }}>
           I started tutoring at Edmonds Community College in the Learning Support Center and then at Central Washington University for their Math Bridge program. While attending University of Washington Bothell I started private tutoring the classes listed above to middle/high schoolers and college students.
           <br/><br/>
-          During the study hours, I either tutor other students, learn more about Deep Learning in the AI field, solve Leetcode.com questions, or work on my startup.
+          During the study hours, I tutor students, learn more about Deep Learning in the AI field, or work on my startup.
           <br/><br/>
           In my free time, I like to read. Feel free to ask me what I am currently reading at iestemtutor@gmail.com.
         </div>
@@ -135,7 +135,7 @@ function App() {
         <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", fontSize: "2.5vh", width: "17vw", margin: "1vh 1vw",
             flexDirection: "column", alignItems: "center", padding: "2vh 2vw", minWidth: "300px" }}>
             <div style={{ fontSize: "3.5vh", textAlign: "center" }}><u>A Little Help</u></div>
-            <div style={{ fontSize: "3vh", textAlign: "center", marginBottom: "1.5vh" }}>$300/month</div>
+            <div style={{ fontSize: "3vh", textAlign: "center", marginBottom: "1.5vh" }}>$300 <strike>$400</strike>/month</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Weekly student time reports, see example below!</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ 60 - 80 study session hours/week!</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Optional 15 minute introductions if requested!</div>
@@ -148,6 +148,7 @@ function App() {
       <div style={{ fontSize: "2.5vh", textAlign: "center", margin: "2vh 0" }}>(I will also ask for the student's grades at the end of the month to include into the report, <br />you can opt out of this if desired)</div>
       <div style={{ fontSize: "4vh", textAlign: "center", marginBottom: "2vh" }}>Example Report</div>
       <ViewPDF />
+      <div style={{ fontSize: "2.5vh", textAlign: "center", margin: "2vh 0" }}>(Note: this is not a complete report, just a sample of what you'll see)</div>
       <div style={{ fontSize: "5vh", margin: "2vh 0 0", textAlign: "center" }}>Some additional info</div>
       <div style={{ display: "flex", margin: "2vh 0 0", justifyContent: "center", width: "100%", flexWrap: "wrap" }}>
         <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", fontSize: "2.5vh", width: "25vw", margin: "3vh 3vw",
