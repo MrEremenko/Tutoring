@@ -115,7 +115,7 @@ function App() {
             flexDirection: "column", alignItems: "center", padding: "2vh 2vw", minWidth: "300px" }}>
             <div style={{ fontSize: "3.5vh", textAlign: "center" }}><u>The Independent</u></div>
             <div style={{ fontSize: "3vh", textAlign: "center", marginBottom: "1.5vh" }}>$30/month</div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Weekly student time reports, see example below!</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Weekly student study time reports, see example below!</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ 60 - 80 study session hours/week!</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Optional 15 minute introductions if requested!</div>
             <div style={{ flex: "1 0 auto"}}></div>
@@ -125,7 +125,7 @@ function App() {
             flexDirection: "column", alignItems: "center", padding: "2vh 2vw", minWidth: "300px" }}>
             <div style={{ fontSize: "3.5vh", textAlign: "center" }}><u>Just the Facts</u></div>
             <div style={{ fontSize: "3vh", textAlign: "center", marginBottom: "1.5vh" }}>$200/month</div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Weekly student time reports, see example below!</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Weekly student study time reports, see example below!</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ 60 - 80 study session hours/week!</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Optional 15 minute introductions if requested!</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><b>✓ Unlimited support via email or direct messages (for subjects listed above)!</b></div>
@@ -136,7 +136,7 @@ function App() {
             flexDirection: "column", alignItems: "center", padding: "2vh 2vw", minWidth: "300px" }}>
             <div style={{ fontSize: "3.5vh", textAlign: "center" }}><u>A Little Help</u></div>
             <div style={{ fontSize: "3vh", textAlign: "center", marginBottom: "1.5vh" }}>$300 <strike>$400</strike>/month</div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Weekly student time reports, see example below!</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Weekly student study time reports, see example below!</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ 60 - 80 study session hours/week!</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Optional 15 minute introductions if requested!</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><b>✓ Unlimited support via email or direct messages (for subjects listed above)!</b></div>
