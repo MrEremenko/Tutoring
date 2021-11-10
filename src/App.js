@@ -36,8 +36,13 @@ function App() {
       <div style={{ margin: "2vh 10vw 0", boxShadow: "0 0px 1.2vh black", padding: "4vh", width: "70vw", display: "flex", flexDirection: "column", alignItems: "center"}}>
         <div style={{ fontSize: "3vh", textAlign: "center" }}><i>"The purpose of tutoring is to help students help themselves, <u>or to assist or guide them to the point
         at which they become an independent learner</u>, and thus no longer need a tutor."</i> -  <a href={"http://southcentral.edu/tutor_training/module1/index.html"} rel="noreferrer" target="_blank" style={{ fontSize: "1.5vh" }}>South Central College</a></div>
-        <div style={{ fontSize: "3.5vh", marginTop: "3vh", textAlign: "center" }}>This is why I offer <u>60-80 free study hours per week with any tutoring package</u>.</div>
-        <div style={{ fontSize: "3.5vh", textAlign: "center" }}>If you want to build an independent learner, you have come to the right place.</div>
+        <div style={{ fontSize: "3.5vh", marginTop: "3vh", textAlign: "center" }}>This is why I offer <u>40-80 free study hours per week</u> with any tutoring package.</div>
+        <div style={{ fontSize: "3.5vh", textAlign: "center" }}>During this time, I'll be in the Zoom call, where everyone studies.</div>
+        <div style={{ fontSize: "3.5vh", textAlign: "center",  }}>A <u style={{ cursor: "pointer", color: "blue" }} onClick={e => {
+          var pdf = document.getElementById("pdf");
+          pdf.scrollIntoView({ behavior: "smooth" });
+        }}>weekly report</u> summarizing the student's study hours</div>
+        <div style={{ fontSize: "3.5vh", textAlign: "center" }}>will be provided.</div>
       </div>
       <div style={{ fontSize: "4vh", marginTop: "5vh" }}>The subjects I tutor</div>
       <div style={{ boxShadow: "0 0px 1.2vh black", width: "60vw", padding: "3vh 6vw", display: "flex", margin: "1vh 10vw 0", fontSize: "2.5vh", flexWrap: "wrap" }}>
@@ -116,7 +121,7 @@ function App() {
             <div style={{ fontSize: "3.5vh", textAlign: "center" }}><u>The Independent</u></div>
             <div style={{ fontSize: "3vh", textAlign: "center", marginBottom: "1.5vh" }}>$30/month</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Weekly student study time reports, see example below!</div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ 60 - 80 study session hours/week!</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ 40 - 80 study session hours/week!</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Optional 15 minute introductions if requested!</div>
             <div style={{ flex: "1 0 auto"}}></div>
             <div style={{ textAlign: "center", borderTopStyle: "solid", paddingTop: "1vh" }}>For those who just want the report of all the study hours and the learning environment of everyone studying (over Zoom).</div>
@@ -126,7 +131,7 @@ function App() {
             <div style={{ fontSize: "3.5vh", textAlign: "center" }}><u>Just the Facts</u></div>
             <div style={{ fontSize: "3vh", textAlign: "center", marginBottom: "1.5vh" }}>$200/month</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Weekly student study time reports, see example below!</div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ 60 - 80 study session hours/week!</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ 40 - 80 study session hours/week!</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Optional 15 minute introductions if requested!</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><b>✓ Unlimited support via email or direct messages (for subjects listed above)!</b></div>
             <div style={{ flex: "1 0 auto"}}></div>
@@ -137,16 +142,16 @@ function App() {
             <div style={{ fontSize: "3.5vh", textAlign: "center" }}><u>A Little Help</u></div>
             <div style={{ fontSize: "3vh", textAlign: "center", marginBottom: "1.5vh" }}>$300 <strike>$400</strike>/month</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Weekly student study time reports, see example below!</div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ 60 - 80 study session hours/week!</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ 40 - 80 study session hours/week!</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Optional 15 minute introductions if requested!</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><b>✓ Unlimited support via email or direct messages (for subjects listed above)!</b></div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><b>✓ 1 hour/week private tutoring session</b></div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><b>✓ 1 hour/week private tutoring session!</b></div>
             <div style={{ flex: "1 0 auto"}}></div>
             <div style={{ textAlign: "center", borderTopStyle: "solid", paddingTop: "1vh" }}>For those who want the report, unlimited support over text, AND an hour of tutoring to master all the concepts.</div>
         </div>
       </div>
       <div style={{ fontSize: "2.5vh", textAlign: "center", margin: "2vh 0" }}>(I will also ask for the student's grades at the end of the month to include into the report, <br />you can opt out of this if desired)</div>
-      <div style={{ fontSize: "4vh", textAlign: "center", marginBottom: "2vh" }}>Example Report</div>
+      <div id="pdf" style={{ fontSize: "4vh", textAlign: "center", marginBottom: "2vh" }}>Example Report</div>
       <ViewPDF />
       <div style={{ fontSize: "2.5vh", textAlign: "center", margin: "2vh 0" }}>(Note: this is not a complete report, just a sample of what you'll see)</div>
       <div style={{ fontSize: "5vh", margin: "2vh 0 0", textAlign: "center" }}>Some additional info</div>
