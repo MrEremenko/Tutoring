@@ -36,8 +36,8 @@ function App() {
       <div style={{ margin: "2vh 10vw 0", boxShadow: "0 0px 1.2vh black", padding: "4vh", width: "70vw", display: "flex", flexDirection: "column", alignItems: "center"}}>
         <div style={{ fontSize: "3vh", textAlign: "center" }}><i>"The purpose of tutoring is to help students help themselves, <u>or to assist or guide them to the point
         at which they become an independent learner</u>, and thus no longer need a tutor."</i> -  <a href={"http://southcentral.edu/tutor_training/module1/index.html"} rel="noreferrer" target="_blank" style={{ fontSize: "1.5vh" }}>South Central College</a></div>
-        <div style={{ fontSize: "3.5vh", marginTop: "3vh", textAlign: "center" }}>This is why I offer <u>40-80 free study hours per week</u> with any tutoring package.</div>
-        <div style={{ fontSize: "3.5vh", textAlign: "center" }}>During this time, I'll be in the Zoom call, where everyone studies.</div>
+        <div style={{ fontSize: "3.5vh", marginTop: "3vh", textAlign: "center", marginBottom: "1.5vh" }}>This is why I offer <u>40-80 free study hours per week</u> with any tutoring package.</div>
+        <div style={{ fontSize: "3.5vh", textAlign: "center", marginBottom: "1.5vh" }}>During this time, I'll be in the Zoom call, where everyone studies.</div>
         <div style={{ fontSize: "3.5vh", textAlign: "center",  }}>A <u style={{ cursor: "pointer", color: "blue" }} onClick={e => {
           var pdf = document.getElementById("pdf");
           pdf.scrollIntoView({ behavior: "smooth" });
