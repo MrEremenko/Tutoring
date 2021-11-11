@@ -124,7 +124,7 @@ function App() {
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ 40 - 80 study session hours/week!</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Optional 15 minute introductions if requested!</div>
             <div style={{ flex: "1 0 auto"}}></div>
-            <div style={{ textAlign: "center", borderTopStyle: "solid", paddingTop: "1vh" }}>For those who just want the report of all the study hours and the learning environment of everyone studying (over Zoom).</div>
+            <div style={{ textAlign: "center", borderTopStyle: "solid", paddingTop: "1vh" }}>For those who just want the report of the study hours and have a study environment over Zoom.</div>
         </div>
         <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", fontSize: "2.5vh", width: "17vw", margin: "1vh 1vw",
             flexDirection: "column", alignItems: "center", padding: "2vh 2vw", minWidth: "300px" }}>
@@ -147,7 +147,7 @@ function App() {
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><b>✓ Unlimited support via email or direct messages (for subjects listed above)!</b></div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><b>✓ 1 hour/week private tutoring session!</b></div>
             <div style={{ flex: "1 0 auto"}}></div>
-            <div style={{ textAlign: "center", borderTopStyle: "solid", paddingTop: "1vh" }}>For those who want the report, unlimited support over text, AND an hour of tutoring to master all the concepts.</div>
+            <div style={{ textAlign: "center", borderTopStyle: "solid", paddingTop: "1vh" }}>For those who want the report, unlimited support over text, AND an hour of tutoring to nail down all the concepts.</div>
         </div>
       </div>
       <div style={{ fontSize: "2.5vh", textAlign: "center", margin: "2vh 0" }}>(I will also ask for the student's grades at the end of the month to include into the report, <br />you can opt out of this if desired)</div>
