@@ -14,7 +14,7 @@ function App() {
       <div style={{ width: "100%", margin: "1vh 0vh", display: "flex", justifyContent: "space-around", flexWrap: "wrap" }}>
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
           <div style={{ fontSize: "2.5vh", textAlign: "center" }}>Illarion Eremenko, Math/Computer Science Tutor</div>
-          <div style={{ fontSize: "1.6vh", textAlign: "center" }}>Online tutor and study partner based in Everett, WA</div>
+          <div style={{ fontSize: "1.6vh", textAlign: "center" }}>Online tutor and study partner based in WA State</div>
         </div>
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }}>
           <div style={{ fontSize: "2.2vh", textAlign: "center" }}>iestemtutor@gmail.com</div>
@@ -31,22 +31,28 @@ function App() {
         </div>    
         <div style={{ fontSize: "3vh", marginBottom: "2vh" }}>How can I help?</div>
       </div>
-      <div style={{ fontSize: "5vh", textAlign: "center", marginTop: "3vh" }}>What is tutoring?</div>
+      <a href="https://forms.gle/erEmp9pdShM28Low5" target="_blank" style={{ marginTop: "1.5vh", fontSize: "2.5vh" }}>Zoom Meeting Room Form</a>
+      <div style={{ fontSize: "5vh", textAlign: "center", marginTop: "1.5vh" }}>What is tutoring?</div>
       <div style={{ fontSize: "2vh", textAlign: "center" }}>(plus my unique approach)</div>
       <div style={{ margin: "2vh 10vw 0", boxShadow: "0 0px 1.2vh black", padding: "4vh", width: "70vw", display: "flex", flexDirection: "column", alignItems: "center"}}>
-        <div style={{ fontSize: "3vh", textAlign: "center" }}><i>"The purpose of tutoring is to help students help themselves, <u>or to assist or guide them to the point
-        at which they become an independent learner</u>, and thus no longer need a tutor."</i> -  <a href={"http://southcentral.edu/tutor_training/module1/index.html"} rel="noreferrer" target="_blank" style={{ fontSize: "1.5vh" }}>South Central College</a></div>
-        <div style={{ fontSize: "3.5vh", marginTop: "3vh", textAlign: "center", marginBottom: "1.5vh" }}>This is why I offer <u>40-80 free study hours per week</u> with any tutoring package.</div>
-        <div style={{ fontSize: "3.5vh", textAlign: "center", marginBottom: "1.5vh" }}>During this time, I'll be in the Zoom call, where everyone studies.</div>
-        <div style={{ fontSize: "3.5vh", textAlign: "center",  }}>A <u style={{ cursor: "pointer", color: "blue" }} onClick={e => {
+        <div style={{ fontSize: "3vh", textAlign: "center" }}><i>"The purpose of tutoring is to help students help themselves"</i> -  <a href={"http://southcentral.edu/tutor_training/module1/index.html"} rel="noreferrer" target="_blank" style={{ fontSize: "1.5vh" }}>South Central College</a></div>
+        <div style={{ fontSize: "3.5vh", marginTop: "3vh", textAlign: "center", marginBottom: "1.5vh" }}>On top of 1:1 tutoring, I offer <u>up to 40 hours of availability per week</u>.</div>
+        <div style={{ fontSize: "3.5vh", textAlign: "center", marginBottom: "1.5vh" }}>During this time, I'll be available to answer questions.</div>
+        <div style={{ fontSize: "3.5vh", textAlign: "center",  }}>To keep track of a student's study time, they can join my Zoom room when they study. A <u style={{ cursor: "pointer", color: "blue" }} onClick={e => {
           var pdf = document.getElementById("pdf");
           pdf.scrollIntoView({ behavior: "smooth" });
-        }}>weekly report</u> summarizing the student's study hours</div>
-        <div style={{ fontSize: "3.5vh", textAlign: "center" }}>will be provided.</div>
+        }}>
+          weekly report
+        </u> summarizing the student's study hours will be provided.</div>
+        <div style={{ fontSize: "3.5vh", textAlign: "center" }}></div>
       </div>
       <div style={{ fontSize: "4vh", marginTop: "5vh" }}>The subjects I tutor</div>
       <div style={{ boxShadow: "0 0px 1.2vh black", width: "60vw", padding: "3vh 6vw", display: "flex", margin: "1vh 10vw 0", fontSize: "2.5vh", flexWrap: "wrap" }}>
         <div style={{ display: "flex", flex: "1 1 15vw", flexDirection: "column", margin: "1vw" }}>
+          <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <div><u>Subject</u></div>
+            <div><u>Grade</u></div>
+          </div>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <div>Algebra I, II</div>
             <div>(4.0)</div>
@@ -73,6 +79,10 @@ function App() {
           </div>
         </div>
         <div style={{ display: "flex", flex: "1 1 15vw", flexDirection: "column", margin: "1vw" }}>
+          <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <div><u>Subject</u></div>
+            <div><u>Grade</u></div>
+          </div>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <div>Java I, II, III</div>
             <div>(4.0)</div>
@@ -121,55 +131,52 @@ function App() {
             <div style={{ fontSize: "3.5vh", textAlign: "center" }}><u>The Independent</u></div>
             <div style={{ fontSize: "3vh", textAlign: "center", marginBottom: "1.5vh" }}>$30/month</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Weekly student study time reports, see example below!</div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ 40 - 80 study session hours/week!</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Optional 15 minute introductions if requested!</div>
             <div style={{ flex: "1 0 auto"}}></div>
-            <div style={{ textAlign: "center", borderTopStyle: "solid", paddingTop: "1vh" }}>For those who just want the report of the study hours and have a study environment over Zoom.</div>
+            <div style={{ textAlign: "center", borderTopStyle: "solid", paddingTop: "1vh" }}>For those who want to keep track of their study hours, by joining a Zoom room (it tracks when student enters & leaves).</div>
         </div>
         <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", fontSize: "2.5vh", width: "17vw", margin: "1vh 1vw",
             flexDirection: "column", alignItems: "center", padding: "2vh 2vw", minWidth: "300px" }}>
             <div style={{ fontSize: "3.5vh", textAlign: "center" }}><u>Just the Facts</u></div>
             <div style={{ fontSize: "3vh", textAlign: "center", marginBottom: "1.5vh" }}>$200/month</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Weekly student study time reports, see example below!</div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ 40 - 80 study session hours/week!</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Optional 15 minute introductions if requested!</div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><b>✓ Unlimited support via email or direct messages (for subjects listed above)!</b></div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><b>✓ Unlimited support via email or direct messages (tutors don't usually offer this)!</b></div>
             <div style={{ flex: "1 0 auto"}}></div>
-            <div style={{ textAlign: "center", borderTopStyle: "solid", paddingTop: "1vh" }}>For those who want the report, study room, AND unlimited support over email/direct messages.</div>
+            <div style={{ textAlign: "center", borderTopStyle: "solid", paddingTop: "1vh" }}>For those who want their study hours report, AND unlimited support over email/direct messages.</div>
         </div>
         <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", fontSize: "2.5vh", width: "17vw", margin: "1vh 1vw",
             flexDirection: "column", alignItems: "center", padding: "2vh 2vw", minWidth: "300px" }}>
-            <div style={{ fontSize: "3.5vh", textAlign: "center" }}><u>A Little Help</u></div>
-            <div style={{ fontSize: "3vh", textAlign: "center", marginBottom: "1.5vh" }}>$300 <strike>$400</strike>/month</div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Weekly student study time reports, see example below!</div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ 40 - 80 study session hours/week!</div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Optional 15 minute introductions if requested!</div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><b>✓ Unlimited support via email or direct messages (for subjects listed above)!</b></div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><b>✓ 1 hour/week private tutoring session!</b></div>
+            <div style={{ fontSize: "3.5vh", textAlign: "center" }}><u>Private Sessions</u></div>
+            <div style={{ fontSize: "3vh", textAlign: "center", marginBottom: "1.5vh" }}>$40/hour</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Private 1 on 1 tutoring sessions!</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Keep track of what was covered in a Google Doc!</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Get assigned specific questions to strengthen concepts!</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>✓ Can be paired along with Package #2 (will do a discount)!</div>
             <div style={{ flex: "1 0 auto"}}></div>
-            <div style={{ textAlign: "center", borderTopStyle: "solid", paddingTop: "1vh" }}>For those who want the report, unlimited support over text, AND an hour of tutoring to nail down all the concepts.</div>
+            <div style={{ textAlign: "center", borderTopStyle: "solid", paddingTop: "1vh" }}>For those who want 1:1 private tutoring.</div>
         </div>
       </div>
-      <div style={{ fontSize: "2.5vh", textAlign: "center", margin: "2vh 0" }}>(I will also ask for the student's grades at the end of the month to include into the report, <br />you can opt out of this if desired)</div>
-      <div id="pdf" style={{ fontSize: "4vh", textAlign: "center", marginBottom: "2vh" }}>Example Report</div>
+      <div id="pdf" style={{ fontSize: "4vh", textAlign: "center", margin: "2vh 0" }}>Sample Report</div>
       <ViewPDF />
-      <div style={{ fontSize: "2.5vh", textAlign: "center", margin: "2vh 0" }}>(Note: this is not a complete report, just a sample of what you'll see)</div>
+      <div style={{ textAlign: "center", marginTop: "1vh" }}>There is debate about a positive correlation between study time and grades, <br/> 
+      but it is agreed that those who study get higher grades than those who don't, and this tool encourages study time.<br />
+      I can also assign homework in order to get the student ahead.</div>
       <div style={{ fontSize: "5vh", margin: "2vh 0 0", textAlign: "center" }}>Some additional info</div>
       <div style={{ display: "flex", margin: "2vh 0 0", justifyContent: "center", width: "100%", flexWrap: "wrap" }}>
         <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", fontSize: "2.5vh", width: "25vw", margin: "3vh 3vw",
           flexDirection: "column", alignItems: "center", padding: "3vh 3vw", minWidth: "300px" }}>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><u>Study Sessions</u></div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>Study sessions are Zoom calls where students join and study, generally on mute in order to concentrate.</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>I have a Zoom room where my students can join and track their study time with microphone and camera off.</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>This creates an environment where a student can concentrate on their work without any outside distractions.</div>
-            <div style={{ textAlign: "center" }}>The only rule:</div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><u>Study sessions are for studying/working.</u></div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>In other words, don't get distracted with other tasks. The Zoom call is open 24/7, so join later if needed!</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>Study sessions are for studying/working.</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>In other words, don't get distracted with other tasks.</div>
             <div style={{ flex: "1 0 auto"}}></div>
             <img alt={"<Zoom Video>"} src={video} style={{ width: "20vw", minWidth: "250px" }} />
         </div>
         <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", fontSize: "2.5vh", width: "25vw", margin: "3vh 3vw",
           flexDirection: "column", alignItems: "center", padding: "3vh 3vw", minWidth: "300px"  }}>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><u>For long term clients</u></div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><u>Book Recommendation</u></div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>As part of the journey to build independent learners, there is a book I'd like for my students to read.</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>There is a version for teenagers as well for a bit of an easier read. I'll reveal this over email.</div>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>We can talk more about it during the optional 15 minute introductions.</div>
@@ -182,7 +189,7 @@ function App() {
       <div style={{ boxShadow: "0 0px 1.2vh black", display: "flex", fontSize: "2.5vh", width: "25vw", margin: "3vh 3vw",
           flexDirection: "column", alignItems: "center", padding: "3vh 3vw", minWidth: "300px"  }}>
             <div style={{ textAlign: "center", marginBottom: "2.9vh" }}><u>Using Benjamin Franklin's Schedule</u></div>
-            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>I have adopted Benjamin Franklin's schedule as shown below from his autobiography.</div>
+            <div style={{ textAlign: "center", marginBottom: "2.9vh" }}>I started using Benjamin Franklin's schedule as shown below from his autobiography.</div>
             <img alt={"<Benjamin Franklin's Schedule>"} src={schedule} style={{ width: "16vw", minWidth: "250px" }} />
             <a href={"https://www.pinterest.com/pin/206532332898922924/"} style={{ color: "#707070", fontSize: "1vh" }} target="_blank" rel="noreferrer">https://www.pinterest.com/pin/206532332898922924/</a>
             <div style={{ textAlign: "center", marginTop: "2vh" }}>I find that days are longer and more productive this way.</div>
