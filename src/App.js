@@ -25,7 +25,7 @@ function App() {
         display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "space-around", flexWrap: "wrap"
       }}>
         <div style={{ display: "flex", flexDirection: "column", fontSize: "2.4vh" }}>
-          <div>✓ T-Mobile Software Engineer</div>
+          <div>✓ Software Engineer</div>
           <div>✓ University of Washington Bothell Graduate</div>
           <div>✓ BS in Computer Science and Software Engineering</div>
           <div>✓ 790/800 on Math SAT</div>
