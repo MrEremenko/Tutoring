@@ -29,7 +29,7 @@ function App() {
           <div>✓ University of Washington Bothell Graduate</div>
           <div>✓ BS in Computer Science and Software Engineering</div>
           <div>✓ 790/800 on Math SAT</div>
-          <div>✓ Tutor for 3+ years</div>
+          <div>✓ Tutor for 5+ years</div>
           <div>✓ Dozens of clients</div>
         </div>
         <div style={{ fontSize: "3vh", marginBottom: "2vh" }}>How can I help?</div>
